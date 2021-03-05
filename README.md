@@ -53,13 +53,13 @@
 
 #### 프로그래머스
 
-- Programmers/suyeon/문제명.py
-- Programmers/eugene/문제명.py
+- Programmers/suyeon/주제/문제명.py
+- Programmers/eugene/주제/문제명.py
 
 #### 백준
 
-- Baekjoon/suyeon/문제번호_문제명.py
-- Baekjoon/eugene/문제번호_문제명.py
+- Baekjoon/suyeon/주제/문제번호_문제명.py
+- Baekjoon/eugene/주제/문제번호_문제명.py
 
 ## 일정표
 
