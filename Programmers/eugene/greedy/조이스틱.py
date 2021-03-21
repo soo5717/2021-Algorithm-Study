@@ -18,8 +18,8 @@ def solution(name):
         #커서 이동 카운트
         for k in range(1,len(name)):
             if name[i+k]=="A": right+=1
-            else : break               
-        for k in range(1,len(name)):
+            else : break 
+            
             if name[i-k]=="A" : left+=1               
             else: break
         
