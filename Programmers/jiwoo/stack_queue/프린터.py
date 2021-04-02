@@ -1,7 +1,7 @@
 def solution(priorities, location):
     answer = 0
 
-    while priorities != []:
+    while priorities:
         max_pri = max(priorities)
         n = priorities.pop(0)
         if max_pri == n:
