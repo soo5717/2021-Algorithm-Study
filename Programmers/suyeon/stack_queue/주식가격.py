@@ -1,15 +1,14 @@
-from collections import deque
-
+# prices = {1, 2, 3, 2, 3, 1} return {5, 4, 1, 2, 1, 0}
 def solution(prices):
-    queue = deque(prices)
-    answer = []
+    length = len(prices)
+    answer = [ i for i in range (length - 1, -1, -1)]
     
-    while queue:
-        price = queue.popleft()
-        sec = 0
-        for q in queue:
-            sec += 1
-            if price > q:
-                break 
-        answer.append(sec)        
+    stack = [0]
+    for i in range (1, length, 1):
+        # print(i, stack)
+        while stack and prices[stack[-1]] > prices[i]:
+            j = stack.pop()
+            answer[j] = i - j
+            # print(i, j, stack)
+        stack.append(i)
     return answer
