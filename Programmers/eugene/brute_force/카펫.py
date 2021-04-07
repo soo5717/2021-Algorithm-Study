@@ -1,6 +1,6 @@
 def solution(brown, yellow):
     answer = []
-    round2 = brown//2
-    for i in range(3, round2):
-        if (round2-i)*(i-2) == yellow:
-            return [round2+2-i,i]
+    half_round = brown//2
+    for i in range(3, half_round):
+        if (half_round-i)*(i-2) == yellow:
+            return [half_round+2-i,i]
