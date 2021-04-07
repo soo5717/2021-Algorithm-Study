@@ -1,6 +1,16 @@
 from itertools import permutations
 
-def prime_tf(number):
+1
+
+from itertools import permutations
+
+2
+
+
+
+3
+
+def prime_tf(number): #소수 판별
     return all([(number%n) for n in range(2, int(number**0.5)+1)]) and number>1
 
 def solution(numbers):
