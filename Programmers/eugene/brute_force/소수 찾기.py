@@ -9,7 +9,7 @@ def solution(numbers):
     prime_list=[]
     
     for i in range(1, len(numbers)+1):
-        prime_list += list(map(int, map(''.join,permutations(numbers, i))))
+        prime_list += list(map(int, map(''.join,permutations(numbers, i)))) #모든 조합을 prime_list에 추가
     prime_list=set(prime_list) #중복 제외
     
     for j in prime_list :
