@@ -1,10 +1,10 @@
 def solution(prices):
     len_p=len(prices)
-    answer = [(len_p-1)-i for i in range(len_p)]
+    answer = [ i for i in range (len_p - 1, -1, -1)]
     
-    stack = []
-    for i, price in enumerate(prices):
-        while stack and prices[stack[-1]] > price:
+    stack = [0]
+    for i in range(1, len_p):
+        while stack and prices[i] < prices[stack[-1]]:
             j = stack.pop()
             answer[j] = i - j
         stack.append(i)
