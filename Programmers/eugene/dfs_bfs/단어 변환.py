@@ -11,7 +11,6 @@ def solution(begin, target, words):
         stack = stacks.pop()
         
         if stack == target:
-             
             return answer
         
         for w in range(len(words)):
