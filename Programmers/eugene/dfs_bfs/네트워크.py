@@ -5,7 +5,7 @@ def solution(n, computers):
     for i in range(n):
         if visited[i] == False : #방문하지 않은 컴퓨터면 탐색
             dfs(computers, i, visited) #dfs함수 실행
-            answer+=1
+            answer+=1 #더 이상 연결된 네트워크가 없으면, 위 dfs를 빠져나오고 네트워크를 추가한다.
     return answer
 
 def dfs(graph, v, visited):
