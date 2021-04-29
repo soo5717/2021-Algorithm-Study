@@ -12,7 +12,7 @@
 | 스택/큐[1]            | [주식 가격](https://jjuyaa.tistory.com/129)|
 | 깊이/너비 우선 탐색[0]    | [네트워크](https://jjuyaa.tistory.com/130)|
 | 깊이/너비 우선 탐색[1]    | [타켓넘버](https://jjuyaa.tistory.com/131)|
-| 해시                |                                                              |
+| 해시[0]                | [위장](https://jjuyaa.tistory.com/132)|
 | 정렬                |                                                              |
 | 이분탐색            |                                                              |
 | 다이나믹 프로그래밍 |                                                              |
