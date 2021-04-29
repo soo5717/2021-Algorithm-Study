@@ -14,6 +14,7 @@
 | 깊이/너비 우선 탐색[1]    | [타켓넘버](https://jjuyaa.tistory.com/131)|
 | 해시[0]                | [위장](https://jjuyaa.tistory.com/132)|
 | 해시[1]                | [전화번호목록](https://jjuyaa.tistory.com/133)|
+| 해시[2]                | [베스트앨범]()|
 | 정렬                |                                                              |
 | 이분탐색            |                                                              |
 | 다이나믹 프로그래밍 |                                                              |
