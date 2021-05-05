@@ -1,29 +1,29 @@
 def solution(genres, plays):
     answer = []
     
-    genreCount = {}
+    genre_count = {}
     for genre, play in zip(genres, plays):
-        if genre in genreCount.keys():
-            genreCount[genre] += play
+        if genre in genre_count.keys():
+            genre_count[genre] += play
         else:
-            genreCount[genre] = play
+            genre_count[genre] = play
 
-    songPlayCount = {}
+    song_play_count = {}
     for i in range(len(genres)):
         genre = genres[i]
         play = plays[i]
         
-        counts = genreCount[genre]
-        if genre in songPlayCount.keys():
-            if len(songPlayCount[genre]) >= 2:
-                songPlayCount[genre].append([counts, play, i])
-                songPlayCount[genre] = sorted(songPlayCount[genre], key = lambda x: -x[1])[:2]
+        counts = genre_count[genre]
+        if genre in song_play_count.keys():
+            if len(song_play_count[genre]) >= 2:
+                song_play_count[genre].append([counts, play, i])
+                song_play_count[genre] = sorted(song_play_count[genre], key = lambda x: -x[1])[:2]
             else:
-                songPlayCount[genre].append([counts, play, i])
+                song_play_count[genre].append([counts, play, i])
         else:
-            songPlayCount[genre] = [[counts, play, i]]
+            song_play_count[genre] = [[counts, play, i]]
 
-    songPlayValues = sum(songPlayCount.values(), [])
-    songPlaySort = sorted(songPlayValues, key=lambda x: (-x[0], -x[1], x[2]))
+    song_play_values = sum(song_play_count.values(), [])
+    song_play_sort = sorted(song_play_values, key=lambda x: (-x[0], -x[1], x[2]))
 
-    return [i[2] for i in songPlaySort]
+    return [i[2] for i in song_play_sort]
