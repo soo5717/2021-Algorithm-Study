@@ -15,7 +15,9 @@
 | 해시[0]                | [위장](https://jjuyaa.tistory.com/132)|
 | 해시[1]                | [전화번호목록](https://jjuyaa.tistory.com/133)|
 | 해시[2]                | [베스트앨범]()|
-| 정렬                |                                                              |
+| 정렬[0]                | [K번째수](https://jjuyaa.tistory.com/155)|
+| 정렬[1]                | [가장큰수](https://jjuyaa.tistory.com/154)|
+| 정렬[2]                | [H-Index](https://jjuyaa.tistory.com/156)|
 | 이분탐색            |                                                              |
 | 다이나믹 프로그래밍 |                                                              |
 | 힙                  |                                                              |
