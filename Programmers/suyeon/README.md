@@ -9,7 +9,7 @@
 | 3주차  | 스택/큐             | [주식가격](https://velog.io/@soo5717/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9-Python) |
 | 4주차  | 깊이/너비 우선 탐색 | [단어변환](https://velog.io/@soo5717/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%8B%A8%EC%96%B4%EB%B3%80%ED%99%98-Python) |
 | 5주차  | 해시                | [전화번호 목록](https://velog.io/@soo5717/Programmers-%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8-%EB%AA%A9%EB%A1%9D-Python) |
-| 6주차  | 정렬                |                                                              |
+| 6주차  | 정렬                | [H-Index](https://velog.io/@soo5717/Programmers-H-Index-Python) |
 | 7주차  | 이분탐색            |                                                              |
 | 8주차  | 다이나믹 프로그래밍 |                                                              |
 | 9주차  | 힙                  |                                                              |
