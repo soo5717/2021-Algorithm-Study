@@ -1,7 +1,2 @@
 def solution(array, commands):
-    answer = []
-    
-    for command in commands:
-        i, j, k = command
-        answer.append(list(sorted(array[i-1:j]))[k-1])
-    return answer
+    return [sorted(array[i-1:j]))[k-1] for i, j, k in commands]
