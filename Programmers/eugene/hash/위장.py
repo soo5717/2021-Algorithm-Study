@@ -3,6 +3,7 @@ def solution(clothes):
 
     clothes= dict(clothes)
     category = set(clothes.values())
+
     dict_clothes = dict(zip(category, [0]*len(category)))
     
     for c in clothes.values():
