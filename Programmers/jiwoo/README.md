@@ -18,7 +18,8 @@
 | 정렬[0]                | [K번째수](https://jjuyaa.tistory.com/155)|
 | 정렬[1]                | [가장큰수](https://jjuyaa.tistory.com/154)|
 | 정렬[2]                | [H-Index](https://jjuyaa.tistory.com/156)|
-| 이분탐색            |                                                              |
+| 이분탐색[0]                | [징검다리](https://jjuyaa.tistory.com/174)|
+| 이분탐색[1]            |[입국심사]()|
 | 다이나믹 프로그래밍 |                                                              |
 | 힙                  |                                                              |
 | 그래프              |                                                              |
