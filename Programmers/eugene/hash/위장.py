@@ -3,13 +3,13 @@ def solution(clothes):
 
     clothes= dict(clothes)
     category = set(clothes.values())
-    Clothes = dict(zip(category, [0]*len(category)))
+
+    dict_clothes = dict(zip(category, [0]*len(category)))
     
     for c in clothes.values():
-        Clothes[c]+=1    
+        dict_clothes[c]+=1    
     
-    for value in Clothes.values():
+    for value in dict_clothes.values():
         answer*= (value+1)        
-    answer-=1    
 
-    return answer
+    return answer-1
