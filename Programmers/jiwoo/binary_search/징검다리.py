@@ -8,7 +8,6 @@ def solution(distance, rocks, n):
     
     while left <= right:
         mid = (left+right) // 2
-        min_distance = distance
         del_rock = now = 0
         
         for rock in rocks:
@@ -17,12 +16,11 @@ def solution(distance, rocks, n):
                 del_rock += 1
             else:
                 now = rock
-                min_distance = min(min_distance, dis)
         
         if del_rock > n:
             right = mid-1
         else:
-            answer = min_distance
+            answer = mid
             left = mid+1
             
     return answer
