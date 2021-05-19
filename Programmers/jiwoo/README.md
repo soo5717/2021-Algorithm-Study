@@ -20,6 +20,7 @@
 | 정렬[2]                | [H-Index](https://jjuyaa.tistory.com/156)|
 | 이분탐색[0]                | [징검다리](https://jjuyaa.tistory.com/174)|
 | 이분탐색[1]            |[입국심사](https://jjuyaa.tistory.com/177)|
-| 다이나믹 프로그래밍 |                                                              |
+| 다이나믹 프로그래밍[0]    |[등굣길](https://jjuyaa.tistory.com/178)|
+| 다이나믹 프로그래밍[1]    |[정수삼각형](https://jjuyaa.tistory.com/179)|
 | 힙                  |                                                              |
 | 그래프              |                                                              |
