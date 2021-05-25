@@ -11,6 +11,6 @@
 | 5주차  | 해시                | [전화번호 목록](https://velog.io/@soo5717/Programmers-%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8-%EB%AA%A9%EB%A1%9D-Python) |
 | 6주차  | 정렬                | [H-Index](https://velog.io/@soo5717/Programmers-H-Index-Python) |
 | 7주차  | 이분탐색            | [징검다리](https://velog.io/@soo5717/Programmers-%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC-Python) |
-| 8주차  | 다이나믹 프로그래밍 |                                                              |
+| 8주차  | 다이나믹 프로그래밍 | [N으로 표현](https://velog.io/@soo5717/Programmers-N%EC%9C%BC%EB%A1%9C-%ED%91%9C%ED%98%84-Python) |
 | 9주차  | 힙                  |                                                              |
 | 10주차 | 그래프              |                                                              |
