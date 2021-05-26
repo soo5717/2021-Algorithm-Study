@@ -4,7 +4,7 @@ def solution(triangle):
             if j == 0:
                 triangle[i][j] += triangle[i-1][0]
             elif j == i:
-                triangle[i][j] += triangle[i-1][i-1]
+                triangle[i][j] += triangle[i-1][-1]
             else:
                 a = triangle[i][j] + triangle[i-1][j-1]
                 b = triangle[i][j] + triangle[i-1][j]
