@@ -1,7 +1,7 @@
 def solution(m, n, puddles):
     memo = [[0]*(n+1) for i in range(m+1)]
     
-    if puddles != [[]]:
+    if puddles:
         for a, b in puddles:
             memo[a][b] = -1
             
@@ -14,6 +14,6 @@ def solution(m, n, puddles):
             if memo[j][k] == -1:
                 memo[j][k] = 0
                 continue
-            memo[j][k] = memo[j][k-1] + memo[j-1][k]
+            memo[j][k] = (memo[j][k-1] + memo[j-1][k])  % 1000000007
 
-    return memo[m][n] % 1000000007
+    return memo[m][n]
