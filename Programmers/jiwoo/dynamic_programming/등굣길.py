@@ -16,4 +16,4 @@ def solution(m, n, puddles):
                 continue
             memo[j][k] = (memo[j][k-1] + memo[j-1][k])  % 1000000007
 
-    return memo[m][n]
+    return memo[-1][-1]
