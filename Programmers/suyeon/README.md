@@ -12,5 +12,5 @@
 | 6주차  | 정렬                | [H-Index](https://velog.io/@soo5717/Programmers-H-Index-Python) |
 | 7주차  | 이분탐색            | [징검다리](https://velog.io/@soo5717/Programmers-%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC-Python) |
 | 8주차  | 다이나믹 프로그래밍 | [N으로 표현](https://velog.io/@soo5717/Programmers-N%EC%9C%BC%EB%A1%9C-%ED%91%9C%ED%98%84-Python) |
-| 9주차  | 힙                  |                                                              |
+| 9주차  | 힙                  | [더 맵게](https://velog.io/@soo5717/Programmers-%EB%8D%94-%EB%A7%B5%EA%B2%8C-Python) |
 | 10주차 | 그래프              |                                                              |
