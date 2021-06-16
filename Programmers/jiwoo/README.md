@@ -23,4 +23,4 @@
 | 다이나믹 프로그래밍[0]    |[등굣길](https://jjuyaa.tistory.com/178)|
 | 다이나믹 프로그래밍[1]    |[정수삼각형](https://jjuyaa.tistory.com/179)|
 | 힙                  |                                                              |
-| 그래프              |                                                              |
+| 그래프[0] |[순위](https://jjuyaa.tistory.com/181)|
