@@ -8,13 +8,13 @@ def solution(jobs):
         for j in jobs:
             if start < j[0] <= now:
                 heapq.heappush(heap, [j[1], j[0]])
-        if len(heap) > 0:
-            disk = heapq.heappop(heap)
+        if heap:
+            disk_1, disk_2 = heapq.heappop(heap)
             start = now
-            now += disk[0]
-            time += (now-disk[1])
+            now += disk_1
+            time += (now-disk_2)
             i += 1
         else:
             now += 1
     
-    return int(time/len(jobs))
+    return time//len(jobs)
