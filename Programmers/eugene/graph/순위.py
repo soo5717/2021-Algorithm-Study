@@ -1,5 +1,4 @@
 from collections import deque
-
 def solution(n, results):
     m=len(results)
     graph_lower = [[] for _ in range(n+1)]
