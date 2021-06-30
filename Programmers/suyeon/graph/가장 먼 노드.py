@@ -1,4 +1,4 @@
-from heapq import heappop, heappush
+from collections import deque
 
 INF = int(1e9)
 
@@ -7,21 +7,20 @@ def solution(n, edge):
     distance = [INF] * (n + 1)
     
     for node1, node2 in edge:
-        graph[node1].append((node2, 1))
-        graph[node2].append((node1, 1))
+        graph[node1].append(node2)
+        graph[node2].append(node1)
     
-    queue = []
-    heappush(queue, (0, 1)) # 1번 노드부터 시작
+    queue = deque([])
+    queue.append((0, 1)) # 1번 노드부터 시작 (dist, node)
     distance[1] = 0
     while queue:
-        dist, now = heappop(queue)
+        dist, now = queue.popleft()
         if distance[now] < dist:
             continue
-        for i in graph[now]:
-            cost = dist + i[1]
+        for node in graph[now]:
+            cost = dist + 1
             
-            if cost < distance[i[0]]:
-                distance[i[0]] = cost
-                heappush(queue, (cost, i[0]))
-            
+            if cost < distance[node]:
+                distance[node] = cost
+                queue.append((cost, node))
     return distance.count(max(distance[1:]))
