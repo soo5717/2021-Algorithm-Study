@@ -65,15 +65,26 @@
 
 ## 일정표
 
-| 주차   | 주제                | 폴더명              | 진행 현황 |
-| ------ | ------------------- | ------------------- | --------- |
-| 1주차  | 탐욕법              | greedy              | `진행 완료` |
-| 2주차  | 완전 탐색           | brute_force         | `진행 완료` |
-| 3주차  | 스택/큐             | stack_queue         | `진행 완료` |
-| 4주차  | 깊이/너비 우선 탐색 | dfs_bfs             | `진행 완료` |
-| 5주차  | 해시                | hash                | `진행 완료` |
-| 6주차  | 정렬                | sort                | `진행 완료` |
-| 7주차  | 이분탐색            | binary_search       | `진행 완료` |
-| 8주차  | 다이나믹 프로그래밍 | dynamic_programming | `진행 완료` |
-| 9주차  | 힙                  | heap                | `진행 완료` |
-| 10주차 | 그래프              | graph               | `진행 완료` |
+#### 1차 : 유형별
+
+| 주차   | 주제                | 폴더명              | 문제                                                         | 진행 현황   |
+| ------ | ------------------- | ------------------- | ------------------------------------------------------------ | ----------- |
+| 1주차  | 탐욕법              | greedy              | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) <br />[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | `진행 완료` |
+| 2주차  | 완전 탐색           | brute_force         | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)<br />[카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | `진행 완료` |
+| 3주차  | 스택/큐             | stack_queue         | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)<br />[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | `진행 완료` |
+| 4주차  | 깊이/너비 우선 탐색 | dfs_bfs             | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)<br />[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)<br />[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | `진행 완료` |
+| 5주차  | 해시                | hash                | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)<br />[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)<br />[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | `진행 완료` |
+| 6주차  | 정렬                | sort                | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)<br />[K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)<br />[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | `진행 완료` |
+| 7주차  | 이분탐색            | binary_search       | [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br />[징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | `진행 완료` |
+| 8주차  | 다이나믹 프로그래밍 | dynamic_programming | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)<br />[등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)<br />[정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | `진행 완료` |
+| 9주차  | 힙                  | heap                | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)<br />[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)<br />[이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | `진행 완료` |
+| 10주차 | 그래프              | graph               | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)<br />[방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190)<br />[순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | `진행 완료` |
+
+#### 2차 : 카카오 블라인드 
+
+| 주차   | 주제                 | 폴더명           | 문제                                                         | 진행 현황 |
+| ------ | -------------------- | ---------------- | ------------------------------------------------------------ | --------- |
+| 11주차 | 2021 카카오 블라인드 | 2021_kakao_blind | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)<br />[메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)<br />[순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | `진행 중` |
+| 12주차 | 2020 카카오 블라인드 | 2020_kakao_blind |                                                              | `진행 전` |
+| 13주차 | 2019 카카오 블라인드 | 2019_kakao_blind |                                                              | `진행 전` |
+| 14주차 | 2018 카카오 블라인드 | 2018_kakao_blind |                                                              | `진행 전` |
