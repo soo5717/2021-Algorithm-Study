@@ -15,14 +15,13 @@ def solution(new_id):
     if answer[-1] == '.':
         answer = answer[:-1]
     #5
-    if answer == '':
+    if not answer:
         answer = 'a'
     #6
-    if len(answer) >= 16:
-        answer = answer[:15]
-        if answer[-1] == '.':
-            answer = answer[:-1]
+    answer = answer[:15]
+    if answer[-1] == '.':
+        answer = answer[:-1]
     #7
     if len(answer) <= 2:
-        answer = answer + answer[-1]*(3-len(answer))
+        answer += answer[-1]*(3-len(answer))
     return answer
