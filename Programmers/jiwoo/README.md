@@ -28,4 +28,5 @@
 
 | 2021_카카오[0] |[메뉴리뉴얼](https://jjuyaa.tistory.com/185)|
 | 2021_카카오[1] |[순위검색](https://jjuyaa.tistory.com/188)|
-| 2020_카카오[0] |[문자열압축](https://jjuyaa.tistory.com/187)
+| 2020_카카오[0] |[문자열압축](https://jjuyaa.tistory.com/187)|
+| 2020_카카오[1] |[괄호변환](https://jjuyaa.tistory.com/189)|
