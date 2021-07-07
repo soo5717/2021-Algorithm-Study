@@ -85,6 +85,7 @@
 | **주차** | **폴더명**       | **문제 1**                                                   | **문제 2**                                                   | **문제 3**                                                   | **진행 현황** |
 | -------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------- |
 | 11주차   | 2021_kakao_blind | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | `진행 중`     |
-| 12주차   | 2020_kakao_blind |                                                              |                                                              |                                                              | `진행 전`     |
+| 12주차   | 2020_kakao_blind | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) | `진행 전`     |
 | 13주차   | 2019_kakao_blind |                                                              |                                                              |                                                              | `진행 전`     |
 | 14주차   | 2018_kakao_blind |                                                              |                                                              |                                                              | `진행 전`     |
+
