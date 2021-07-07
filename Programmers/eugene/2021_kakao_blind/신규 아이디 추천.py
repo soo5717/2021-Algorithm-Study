@@ -11,16 +11,14 @@ def solution(new_id):
     #step4.
     new_id = new_id.strip('.')
     #step5.
-    if len(new_id) == 0:
+    if not new_id:
         new_id = 'a'
-    
-    lenNewId = len(new_id)
+        
     #step6.
-    if lenNewId >= 16:
-        new_id=new_id[:15]
-        new_id = new_id.strip('.')
+    new_id=new_id[:15].strip('.')
     #step7.
-    elif lenNewId <=2:
+    lenNewId = len(new_id)
+    if lenNewId <=2:
         new_id=new_id+new_id[-1]*(3-lenNewId)
     
     return new_id
