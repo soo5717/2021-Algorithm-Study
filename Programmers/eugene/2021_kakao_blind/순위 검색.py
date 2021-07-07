@@ -10,7 +10,7 @@ def solution(info, query):
         people_info = i.split()
         score = int(people_info[-1]) #점수
         people[''.join(people_info[:-1])].append(score)    
-        print(people)
+
         for j in range(4): 
             combi = list(combinations(people_info[:-1], j)) 
             for c in combi: 
