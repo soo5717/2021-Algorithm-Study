@@ -9,7 +9,7 @@ def rotate(key, M):
 def check(key, lock, exp_size, start_x, start_y, start, end):
     expend_ = [[0] * exp_size for _ in range(exp_size)]
 
-    # expendList에 key 추가
+    # expend_에 key 추가
     for i in range(start+1):
         for j in range(start+1):
             expend_[start_x+i][start_y+j] += key[i][j]
