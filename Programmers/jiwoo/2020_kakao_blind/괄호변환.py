@@ -1,41 +1,25 @@
-def slicing_uv(p):
-    open_count = 0
-    close_count = 0
+def slice_check(p):
+    count = 0
+    isOK = True
     for i in range(len(p)):
         if p[i] == '(':
-            open_count += 1
+            count += 1
         else:
-            close_count += 1
-        if open_count == close_count:
-            return p[:i+1], p[i+1:]
-
-def isOk(u):
-    stack = []
-    for u_ in u:
-        if u_ == '(':
-            stack.append(u_)
-        else:
-            if not stack:
-                return False
-            stack.pop()
-    return True
+            count -= 1
+        if count < 0:
+            isOK = False
+        if not count:
+            return p[:i+1], p[i+1:], isOK
 
 def solution(p):
     answer = ''
-    if not p:
-        return ''
+    if not p: return ''
     
-    u, v = slicing_uv(p)
+    u, v, isOK = slice_check(p)
     
-    if isOk(u):
+    if isOK:
         return u + solution(v)
     else:
-        answer += '('
-        answer += solution(v)
-        answer += ')'
-        for u_ in u[1:-1]:
-            if u_ == '(':
-                answer += ')'
-            else:
-                answer += '('
+        reverse = ''.join([')' if  u_ == '(' else '(' for u_ in u[1:-1]])
+        answer += '(' + solution(v) + ')' + reverse
     return answer
