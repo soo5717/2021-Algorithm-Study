@@ -10,11 +10,6 @@ def solution(s):
             while (first==word[:i]):
                 cnt+=1
                 word=word[i:]
-
-            if(cnt==1):
-                result+=str(first)
-            else:
-                result+= str(cnt)+str(first)
-                
+            result += str(first) if cnt== 1 else str(cnt)+str(first)   
         answer+=[len(result)]
     return 1 if answer==[] else min(answer)
