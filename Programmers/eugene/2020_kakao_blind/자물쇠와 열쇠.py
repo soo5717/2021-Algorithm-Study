@@ -5,8 +5,7 @@ def solution(key, lock):
     for case in case_turn:
         for i in range(n+m-1):
             for j in range(n+m-1):
-                if check(case,lock,i,j,m,n):
-                    return True
+                if check(case,lock,i,j,m,n): return True
     return False
 
 def check(key, lock, x, y, m, n):
@@ -24,13 +23,11 @@ def check(key, lock, x, y, m, n):
             base[x+i][y+j]+=key[i][j]
 
     #base의 lock 영역을 돌면서 1이 아닌 값이 있는지 체크. 
-
     start = m-1
     end = start+n
     for i in range(start, end):
         for j in range(start,end):
-            if base[i][j] != 1:
-                return False
+            if base[i][j] != 1: return False
     return True
     
 def turn(key,m): #회전하는 모든 경우
