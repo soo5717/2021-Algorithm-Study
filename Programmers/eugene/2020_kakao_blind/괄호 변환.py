@@ -5,15 +5,9 @@ def solution(p):
     
     if proper : #step3 
         return u+solution(v)
-    
     else : #step4
-        result='('
-        result +=solution(v)
-        result+=')'
-        
         reverse=''.join([')' if i=='(' else '(' for i in u[1:len(u)-1] ])
-        result+=reverse
-        return result
+        return '('+solution(v)+')'+reverse
         
         
 def divide_correct(s): #u,v 분리+올바른 괄호 판별
@@ -26,6 +20,7 @@ def divide_correct(s): #u,v 분리+올바른 괄호 판별
             
         if left < right:#한번이라도 right가 크면 올바르지 않은 문자열
             proper=False    
+            
         if(left==right): #균형잡힌 괄호 문자열 u,v 분리
             u= s[:i+1]
             v= s[i+1:]
