@@ -35,4 +35,5 @@
 | 2020_카카오[1] | [괄호변환](https://jjuyaa.tistory.com/189)|
 | 2020_카카오[2] | [자물쇠와열쇠](https://jjuyaa.tistory.com/191)|
 | 2019_카카오[0] | [오픈채팅방](https://jjuyaa.tistory.com/192)|
+| 2019_카카오[1] | [실패율](https://jjuyaa.tistory.com/193)|
 |  |  |
