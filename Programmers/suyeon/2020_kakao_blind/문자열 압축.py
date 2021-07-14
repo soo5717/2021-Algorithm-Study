@@ -1,22 +1,27 @@
-def solution(s):
-    length_s = len(s)
-    answer = [length_s]
-    for i in range(1, length_s//2 + 1): # 절반
-        count, length = 1, 0 
-        for j in range(0, length_s - i, i):
-            if s[j:j + i] != s[j + i:j + i + i]:
-                length += i
-                if count != 1:
-                    length += len(str(count))
-                count = 1
-            else:
-                count += 1
+def get_rotation(keys, m): # 90 rotation
+    matrix = [[0] * m for _ in range(m)]
+    for i in range(m):
+        for j in range(m):
+            matrix[i][j] = keys[m - 1 - j][i]
+    return matrix
+
+def solution(keys, locks):
+    m, n = len(keys), len(locks)
+    for angle in range(0, 360, 90):
+        for x in range(m + n):
+            for y in range(m + n):
+                matrix = [[0] * (n + 2 * m) for _ in range(n + 2 * m)]
+                for i in range(m):
+                    for j in range(m):
+                        matrix[x + i][y + j] = keys[i][j]
                 
-        if count == 1:
-            length += i if length_s % i == 0 else length_s % i
-        else:
-            length += len(str(count)) + i
-            
-        answer.append(length)
-        
-    return min(answer)
+                answer = True
+                for i in range(n):
+                    for j in range(n):
+                        if matrix[m + i][m + j] ^ locks[i][j] == 0:
+                            answer = False
+                            break
+                if answer: return True
+                
+        keys = get_rotation(keys, m)
+    return False
