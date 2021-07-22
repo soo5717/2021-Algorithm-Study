@@ -37,4 +37,7 @@
 | 2019_카카오[0] | [오픈채팅방](https://jjuyaa.tistory.com/192)|
 | 2019_카카오[1] | [실패율](https://jjuyaa.tistory.com/193)|
 | 2019_카카오[2] | [후보키](https://jjuyaa.tistory.com/194)|
+| 2018_카카오[0] | [캐시](https://jjuyaa.tistory.com/201)|
+| 2018_카카오[1] | [프렌즈4블록](https://jjuyaa.tistory.com/202)|
+| 2018_카카오[2] | [뉴스클러스터링](https://jjuyaa.tistory.com/203)|
 |  |  |
