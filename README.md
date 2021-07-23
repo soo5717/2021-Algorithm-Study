@@ -2,9 +2,9 @@
 
 > 코딩 테스트 준비를 위한 스터디입니다.
 
-- 기간: 2021년 3월~6월
+- 기간: 2021년 3월~
 - 정기 회의: 수요일 오후 8시
-- 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges)
+- 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
 - 언어: 파이썬
 
 ## 스터디 규칙
@@ -16,8 +16,8 @@
    2. 만약 상대가 이해 못하면 이해할 때까지 설명해야 함.
 2. 깃허브 활용해서 Pull Request로 코드 리뷰 진행함.
    1. 서로에 대한 코드 리뷰는 토요일까지 완료하기.
-   2. 반드시 코드 리뷰 후에 main 브랜치로 merge.
-   3. 기본적으로 올릴 때는 각자 이름으로 된 브랜치에 올림.
+   2. 반드시 코드 리뷰 후에 main branch로 merge.
+   3. 기본적으로 올릴 때는 각자 이름으로 된 branch에 올림.
 3. 코드 리뷰 받은 것에 대해서는 다음 회의 전까지 수정해서 다시 깃허브에 올리기.
 
 #### 설명 방식
@@ -84,8 +84,16 @@
 
 | **주차** | **폴더명**       | **문제 1**                                                   | **문제 2**                                                   | **문제 3**                                                   | **진행 현황** |
 | -------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------- |
-| 11주차   | 2021_kakao_blind | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | `진행 완료`     |
-| 12주차   | 2020_kakao_blind | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) | `진행 중`     |
-| 13주차   | 2019_kakao_blind |                                                              |                                                              |                                                              | `진행 전`     |
-| 14주차   | 2018_kakao_blind |                                                              |                                                              |                                                              | `진행 전`     |
+| 11주차   | 2021_kakao_blind | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | `진행 완료`   |
+| 12주차   | 2020_kakao_blind | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) | `진행 완료`   |
+| 13주차   | 2019_kakao_blind | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | `진행 완료`   |
+| 14주차   | 2018_kakao_blind | [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | `진행 완료`   |
+
+#### 3차: 자율 문제집 (백준)
+
+| **주차** | **폴더명** | **문제1**                                      | **문제2**                                       | **문제3**                                     | **진행 현황** |
+| -------- | ---------- | ---------------------------------------------- | ----------------------------------------------- | --------------------------------------------- | ------------- |
+| 15주차   | 15_week    | [부등호](https://www.acmicpc.net/problem/2529) | [최솟값](https://www.acmicpc.net/problem/10868) | [빗물](https://www.acmicpc.net/problem/14719) | `진행 중`     |
+| 16주차   | 16_week    |                                                |                                                 |                                               | `진행 전`     |
+| 17주차   | 17_week    |                                                |                                                 |                                               | `진행 전`     |
 
