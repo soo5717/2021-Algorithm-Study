@@ -6,7 +6,7 @@ def solution(m, n, board):
         remove = [[0] * n for _ in range(m)]
         for i in range(m-1):
             for j in range(n-1):
-                if board[i][j] != 0 and board[i][j] == board[i][j+1] and board[i][j] == board[i+1][j] and board[i][j] == board[i+1][j+1]:
+                if board[i][j] != 0 and board[i][j] == board[i][j+1] == board[i+1][j] == board[i+1][j+1]:
                     remove[i][j], remove[i][j+1], remove[i+1][j], remove[i+1][j+1] = 1, 1, 1, 1
         count = 0
         for i in range(m):
