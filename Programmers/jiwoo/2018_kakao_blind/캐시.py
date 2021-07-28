@@ -4,7 +4,7 @@ def solution(cacheSize, cities):
     times = 0
     buffer = deque()
     
-    if cacheSize == 0:
+    if not cacheSize:
         return len(cities)*5
     for city in cities:
         city = city.upper()
