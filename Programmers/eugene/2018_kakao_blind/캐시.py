@@ -1,8 +1,6 @@
 def solution(cacheSize, cities):
     answer = 0
     my_cache=[]
-
-    #for i in range(len(cities)):cities[i]=cities[i].lower()
         
     if cacheSize ==0:
         return len(cities)*5
