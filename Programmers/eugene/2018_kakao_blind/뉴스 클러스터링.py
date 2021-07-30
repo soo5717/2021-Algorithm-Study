@@ -5,13 +5,12 @@ def solution(str1, str2):
     #두 글짜씩 끊어서 다중집합 생성
     MultiSetX,MultiSetY=[],[]
     for i in range(len(str1)-1):
-        if str(str1[i:i+2]).isalpha(): MultiSetX.append(str(str1[i:i+2]))
+        if str1[i:i+2].isalpha(): MultiSetX.append(str1[i:i+2])
     for i in range(len(str2)-1): 
-        if str(str2[i:i+2]).isalpha(): MultiSetY.append(str(str2[i:i+2]))
+        if str2[i:i+2].isalpha(): MultiSetY.append(str2[i:i+2])
             
     #다중집합 교집합, 합집합
-    temp_u = MultiSetX.copy()
-    temp_i = MultiSetX.copy()
+    temp_u, temp_i=MultiSetX.copy(),MultiSetX.copy()
     union_XY = MultiSetX.copy()
     intersection_XY=[]
     
