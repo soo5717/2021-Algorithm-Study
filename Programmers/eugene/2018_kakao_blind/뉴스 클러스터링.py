@@ -10,7 +10,8 @@ def solution(str1, str2):
         if str(str2[i:i+2]).isalpha(): MultiSetY.append(str(str2[i:i+2]))
             
     #다중집합 교집합, 합집합
-    temp_u, temp_i=MultiSetX.copy(),MultiSetX.copy()
+    temp_u = MultiSetX.copy()
+    temp_i = MultiSetX.copy()
     union_XY = MultiSetX.copy()
     intersection_XY=[]
     
