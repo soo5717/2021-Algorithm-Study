@@ -30,7 +30,6 @@ for i in range(n):
     tree[s + i] = int(input())
 for i in range(s - 1, 0, -1):
     tree[i] = min(tree[i * 2], tree[i * 2 + 1])
-# print(tree)
 
 for _ in range(m):
     a, b = map(int, input().split())
