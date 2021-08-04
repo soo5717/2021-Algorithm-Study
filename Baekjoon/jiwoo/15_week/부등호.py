@@ -14,7 +14,7 @@ def check_oper(a, b, o):
 def solve(count, num_str):
     global max_num, min_num
     if count == num+1:
-        if not len(min_num):
+        if not min_num:
             min_num = num_str
         else:
             max_num = num_str
