@@ -1,10 +1,11 @@
 import sys
 
 input = sys.stdin.readline
+max_ = 1000000000
 
 def query(left, right, node, query_left, query_right):
     if query_right < left or right < query_left:
-        return 1000000000
+        return max_
     elif query_left <= left and right <= query_right:
         return tree[node]
     else:
@@ -19,7 +20,7 @@ while size < N:
     size *= 2
 
 #init tree
-tree = [1000000000] * (size * 2)
+tree = [max_] * (size * 2)
 
 for i in range(N):
     tree[size+i] = int(input())
