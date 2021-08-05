@@ -10,7 +10,7 @@ def solution(cnt,ansList):
     global max_num, min_num
 
     if cnt == num+1:
-        if not len(min_num): min_num=ansList
+        if not min_num : min_num=ansList
         else: max_num=ansList
         return
 
