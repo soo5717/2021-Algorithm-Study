@@ -31,5 +31,5 @@ if __name__ =="__main__":
     init(0,N-1,1)
     
     for _ in range(M):
-        q_start, q_end= [int(x) for x in sys.stdin.readline().split()]
+        q_start, q_end= map(int, sys.stdin.readline().split())
         print(query(0,N-1,1,q_start-1, q_end-1))
