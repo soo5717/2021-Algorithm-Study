@@ -6,20 +6,19 @@ def solution(potential, n):
     StartLink = set(range(n))
     for startTeam in combinations(range(n),n//2):
         sum1,sum2 = 0,0
-        startTeam=set(startTeam)
-        linkTeam = StartLink-startTeam
+        startTeam=list(startTeam)
+        linkTeam = list(StartLink-set(startTeam))
 
-        for a in startTeam:
-            for b in startTeam:
-                sum1 += potential[a][b]
+        for a in range(n//2):
+            for b in range(a+1,n//2):
+                Sx, Sy = startTeam[a], startTeam[b]
+                sum1 += potential[Sx][Sy]+potential[Sy][Sx]
 
-        for a in linkTeam:
-            for b in linkTeam:
-                sum2 += potential[a][b]
-
-        ans = sum1-sum2 if sum1>=sum2 else sum2-sum1
+                Lx, Ly = linkTeam[a], linkTeam[b]
+                sum2 += potential[Lx][Ly]+potential[Ly][Lx]
+        ans=abs(sum1-sum2)
         
-        if ans == 0: return 0
+        if not ans : return 0
         if ans < minimum: minimum = ans
             
     return minimum
