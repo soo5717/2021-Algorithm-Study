@@ -16,6 +16,5 @@ if __name__ =="__main__":
         answer *= fibo[x-idx]
         idx = x+1
         
-    if idx < n :
-        answer *= fibo[n-idx+1]
+    if idx < n : answer *= fibo[n-idx+1]
     print(answer)
