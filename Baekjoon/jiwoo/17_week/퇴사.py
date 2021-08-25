@@ -1,7 +1,7 @@
 N = int(input())
 
 meeting = [list(map(int, input().split())) for i in range(N)]
-dp = [0 for i in range(N+1)]
+dp = [0] * (N+1)
 
 for i in range(N-1, -1, -1):
 	if i + meeting[i][0] > N:
