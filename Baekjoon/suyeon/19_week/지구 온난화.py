@@ -18,9 +18,7 @@ def get_sea_point():
 
                 if nx < 0 or ny < 0 or nx >= R or ny >= C:
                     count += 1
-                    continue
-
-                if matrix[nx][ny] == '.':
+                elif matrix[nx][ny] == '.':
                     count += 1
 
             if count >= 3:
