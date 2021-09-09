@@ -23,32 +23,31 @@ def get_sea_point():
 
             if count >= 3:
                 sea_point.append((r, c))
+            else:
+                get_minimum(r, c)
+
     return sea_point
 
 
-def get_minimum():
-    start_row, end_row, start_col, end_col = R - 1, 0, C - 1, 0
-    for r in range(R):
-        for c in range(C):
-            if matrix[r][c] == 'X':
-                if start_row > r:
-                    start_row = r
-                if end_row < r:
-                    end_row = r
-                if start_col > c:
-                    start_col = c
-                if end_col < c:
-                    end_col = c
-    return [start_row, end_row + 1, start_col, end_col + 1]
+def get_minimum(r, c):
+    global start_row, end_row, start_col, end_col
+    if start_row > r:
+        start_row = r
+    if end_row < r:
+        end_row = r
+    if start_col > c:
+        start_col = c
+    if end_col < c:
+        end_col = c
 
 
 if __name__ == '__main__':
     R, C = map(int, input().split())
     matrix = [list(input().strip()) for _ in range(R)]
 
+    start_row, end_row, start_col, end_col = R - 1, 0, C - 1, 0
     for x, y in get_sea_point():
         matrix[x][y] = '.'
 
-    start_row, end_row, start_col, end_col = get_minimum()
-    for m in matrix[start_row:end_row]:
-        print(''.join(m[start_col:end_col]))
+    for m in matrix[start_row:end_row + 1]:
+        print(''.join(m[start_col:end_col + 1]))
