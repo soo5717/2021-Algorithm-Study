@@ -1,8 +1,8 @@
 N = int(input())
 
-dp = [0, 1, 3]
+DP = [0, 1, 3]
 
 for i in range(3, N+1):
-    dp.append((dp[i-2] * 2) + dp[i-1])
+    DP.append((DP[i-2] * 2) + DP[i-1])
 
-print(dp[N] % 10007)
+print(DP[N] % 10007)
