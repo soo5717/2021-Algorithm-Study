@@ -96,4 +96,7 @@
 | 15주차 | 15_week | [부등호](https://www.acmicpc.net/problem/2529) | [최솟값](https://www.acmicpc.net/problem/10868) | [빗물](https://www.acmicpc.net/problem/14719) | `진행 완료` |
 | 16주차 | 16_week | [구간 곱 구하기](https://www.acmicpc.net/problem/11505) | [스타트와 링크](https://www.acmicpc.net/problem/14889) |  | `진행 완료` |
 | 17주차 | 17_week | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [퇴사](https://www.acmicpc.net/problem/14501) |  | `진행 완료` |
-| 18주차 | 18_week | [행복 유치원](https://www.acmicpc.net/problem/13164) | [극장 좌석](https://www.acmicpc.net/problem/2302) | | `진행 중` |
+| 18주차 | 18_week | [행복 유치원](https://www.acmicpc.net/problem/13164) | [극장 좌석](https://www.acmicpc.net/problem/2302) | | `진행 완료` |
+| 19주차 | 19_week | [지구 온난화](https://www.acmicpc.net/problem/5212) | | | `진행 완료` |
+| 20주차 | 20_week | [2xn 타일링 2](https://www.acmicpc.net/problem/11727) | [LCS](https://www.acmicpc.net/problem/9251) | [소형기관차](https://www.acmicpc.net/problem/2616) | `진행 완료` |
+| 21주차 | 21_week | [치킨 배달](https://www.acmicpc.net/problem/15686) | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322) | | `진행 중` |
