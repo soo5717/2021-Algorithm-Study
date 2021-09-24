@@ -11,9 +11,9 @@ if __name__ == "__main__":
         var = input().split()
         for j in range(n):
             if var[j] == '1':
-                house.append((i,j))
+                house.append((i, j))
             if var[j] == '2':
-                chicken.append((i,j))
+                chicken.append((i, j))
 
     chicken_m = list(combinations(chicken, m))
 
