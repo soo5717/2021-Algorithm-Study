@@ -18,7 +18,5 @@ if __name__ == "__main__":
     T = int(input())
     for _ in range(T):
         N = int(input())
-        public_key_1 = input().split()
-        public_key_2 = input().split()
-        cryptogram = input().split()
+        public_key_1, public_key_2, cryptogram = input().split(), input().split(), input().split()
         print(decrypt())
