@@ -100,4 +100,5 @@
 | 19주차 | 19_week | [지구 온난화](https://www.acmicpc.net/problem/5212) | | | `진행 완료` |
 | 20주차 | 20_week | [2xn 타일링 2](https://www.acmicpc.net/problem/11727) | [LCS](https://www.acmicpc.net/problem/9251) | [소형기관차](https://www.acmicpc.net/problem/2616) | `진행 완료` |
 | 21주차 | 21_week | [치킨 배달](https://www.acmicpc.net/problem/15686) | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322) | | `진행 완료` |
-| 22주차 | 22_week | [빙고](https://www.acmicpc.net/problem/2578) | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | | `진행 중` |
+| 22주차 | 22_week | [빙고](https://www.acmicpc.net/problem/2578) | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | | `진행 완료` |
+| 23주차 | 23_week | [연구소](https://www.acmicpc.net/problem/14502) | [바이러스](https://www.acmicpc.net/problem/2606) | | `진행 중` |
