@@ -7,7 +7,7 @@
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
 - 언어: 파이썬
 
-## 스터디 규칙
+## 스터디 규칙 
 
 #### 문제 풀이
 
