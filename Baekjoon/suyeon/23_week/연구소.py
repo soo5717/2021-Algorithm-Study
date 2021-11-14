@@ -12,6 +12,8 @@ dy = [0, 0, 1, -1]
 
 
 def spread_virus(matrix, x, y):
+    global empty_space_count
+
     for i in range(4):
         nx, ny = x + dx[i], y + dy[i]
 
@@ -19,16 +21,8 @@ def spread_virus(matrix, x, y):
             continue
         if matrix[nx][ny] == EMPTY:
             matrix[nx][ny] = VIRUS
+            empty_space_count -= 1
             spread_virus(matrix, nx, ny)
-
-
-def get_safe_space_count(matrix):
-    count = 0
-    for i in range(N):
-        for j in range(M):
-            if matrix[i][j] == EMPTY:
-                count += 1
-    return count
 
 
 if __name__ == "__main__":
@@ -54,9 +48,10 @@ if __name__ == "__main__":
         copy_lab_matrix[second[0]][second[1]] = WALL
         copy_lab_matrix[third[0]][third[1]] = WALL
 
+        empty_space_count = len(empty_space) - 3
         for r, c in virus_space:
             spread_virus(copy_lab_matrix, r, c)
 
-        safe_space_count = max(get_safe_space_count(copy_lab_matrix), safe_space_count)
+        safe_space_count = max(empty_space_count, safe_space_count)
 
     print(safe_space_count)
