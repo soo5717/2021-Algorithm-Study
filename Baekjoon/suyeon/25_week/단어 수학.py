@@ -4,7 +4,6 @@ from collections import defaultdict
 input = sys.stdin.readline
 
 words = []
-alphabet_dict = {}
 alphabet_sum_dict = defaultdict(int)
 
 N = int(input())
