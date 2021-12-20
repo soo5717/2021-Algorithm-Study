@@ -33,8 +33,3 @@ def solution(expression):
                 
         max_num = max(max_num, abs(int(temp_operand[0])))
     return max_num
-
-def cal(a, b, c):
-    if b == '+': return a+c
-    elif b =='*': return a*c
-    else: return a-c
