@@ -8,5 +8,4 @@ def solution(s):
         for j in i:
             if int(j) not in answer:
                 answer.append(int(j))
-                print(answer)
     return answer
