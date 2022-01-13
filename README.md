@@ -101,7 +101,6 @@
 | 20주차 | 20_week | [2xn 타일링 2](https://www.acmicpc.net/problem/11727) | [LCS](https://www.acmicpc.net/problem/9251) | [소형기관차](https://www.acmicpc.net/problem/2616) | `진행 완료` |
 | 21주차 | 21_week | [치킨 배달](https://www.acmicpc.net/problem/15686) | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322) | | `진행 완료` |
 | 22주차 | 22_week | [빙고](https://www.acmicpc.net/problem/2578) | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | | `진행 완료` |
-<<<<<<< HEAD
 | 23주차 | 23_week | [연구소](https://www.acmicpc.net/problem/14502) | [바이러스](https://www.acmicpc.net/problem/2606) | | `진행 완료` |
 
 #### 4차: 타임 어택 문제 풀이 (프로그래머스) & 자율 문제집 (백준)
@@ -113,6 +112,3 @@
 | 26주차 | 26_week | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257?language=python3) | | `진행 완료` |
 | 27주차 | 27_week | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065?language=python3) | | `진행 완료` |
 | 28주차 | 28_week | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=python3) | | `진행 중` |
-=======
-| 23주차 | 23_week | [연구소](https://www.acmicpc.net/problem/14502) | [바이러스](https://www.acmicpc.net/problem/2606) | | `진행 중` |
->>>>>>> 9e3fa014ec87b0ff3a590f52dd591c634a830e11
