@@ -111,4 +111,8 @@
 | 25주차 | 25_week | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302?language=python3) | [단어수학](https://www.acmicpc.net/problem/1339) | `진행 완료` |
 | 26주차 | 26_week | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257?language=python3) | | `진행 완료` |
 | 27주차 | 27_week | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065?language=python3) | | `진행 완료` |
-| 28주차 | 28_week | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=python3) | | `진행 중` |
+| 28주차 | 28_week | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=python3) | | `진행 완료` |
+| 29주차 | 29_week | [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | | `진행 완료` |
+| 30주차 | 30_week | [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341?language=python3) | | `진행 완료` |
+| 31주차 | 31_week | [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | | `진행 완료` |
+| 32주차 | 32_week | [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064?language=python3) | | `진행 중` |
