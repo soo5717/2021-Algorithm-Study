@@ -117,3 +117,4 @@
 | 31주차   | 31_week    | [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) |                                                  | `진행 완료`   |
 | 32주차   | 32_week    | [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) |                                                  | `진행 완료`   |
 | 33주차   | 33_week    | [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064?language=python3) |                                                  | `진행 중`     |
+| 34주차   | 34_week    | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683?language=python3) |  | `진행 중` |
