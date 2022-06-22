@@ -2,6 +2,7 @@ from itertools import combinations
 import math
 
 MAXNUM = 1000000000000001
+
 def solution(line):
     case = list(combinations(line, 2))
     point_list = []
