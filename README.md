@@ -116,14 +116,18 @@
 | 30주차   | 30_week    | [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341?language=python3) |                                                  | `진행 완료`   |
 | 31주차   | 31_week    | [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) |                                                  | `진행 완료`   |
 | 32주차   | 32_week    | [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) |                                                  | `진행 완료`   |
-| 33주차   | 33_week    | [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064?language=python3) |                                                  | `진행 중`     |
+| 33주차   | 33_week    | [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064?language=python3) |                                                  | `진행 완료` |
 | 34주차   | 34_week    | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683?language=python3) |  | `진행 완료` |
 | 35주차   | 35_week    | [모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) |  | `진행 완료` |
 | 36주차   | 36_week    | [n^2 배열 자르기](https://programmers.co.kr/learn/courses/30/lessons/87390) |  | `진행 완료` |
 | 37주차   | 37_week    | [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) |  | `진행 완료` |
-| 38주차   | 38_week    | [교점에 별 만들기](https://programmers.co.kr/learn/courses/30/lessons/87377) |  | `진행 중` |
-| 39주차   | 39_week    | [삼각달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [토마토](https://www.acmicpc.net/problem/7569) | `진행 중` |
-| 40주차   | 40_week    | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [진우의 민트초코우유](https://www.acmicpc.net/problem/20208) | `진행 중` |
+| 38주차   | 38_week    | [교점에 별 만들기](https://programmers.co.kr/learn/courses/30/lessons/87377) |  | `진행 완료` |
+| 39주차   | 39_week    | [삼각달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [토마토](https://www.acmicpc.net/problem/7569) | `진행 완료` |
+| 40주차   | 40_week    | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [진우의 민트초코우유](https://www.acmicpc.net/problem/20208) | `진행 완료` |
 | 41주차   | 41_week    |  | [그림](https://www.acmicpc.net/problem/1926) | `진행 완료` |
-| 42주차   | 42_week    | [점프와 순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [네트워크 연결](https://www.acmicpc.net/problem/1922) | `진행 중` |
-| 43주차   | 43_week    | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [로봇청소기](https://www.acmicpc.net/problem/14503) | `진행 중` |
+| 42주차   | 42_week    | [점프와 순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [네트워크 연결](https://www.acmicpc.net/problem/1922) | `진행 완료` |
+| 43주차   | 43_week    | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [로봇청소기](https://www.acmicpc.net/problem/14503) | `진행 완료` |
+| 44주차 | 44_week | [양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | `진행 완료` |
+| 45주차 | 45_week | [카드 짝 맞추기](https://school.programmers.co.kr/learn/courses/30/lessons/72415) | [일루미네이션](https://www.acmicpc.net/problem/5547) | `진행 완료` |
+| 46주차 | 46_week | [2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885) |  | `진행 완료` |
+| 47주차 | 47_week | [110 옮기기](https://school.programmers.co.kr/learn/courses/30/lessons/77886) | [평범한 배낭](https://www.acmicpc.net/problem/12865) | `진행 완료` |
