@@ -129,5 +129,5 @@
 | 43주차   | 43_week    | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [로봇청소기](https://www.acmicpc.net/problem/14503) | `진행 완료` |
 | 44주차 | 44_week | [양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | `진행 완료` |
 | 45주차 | 45_week | [카드 짝 맞추기](https://school.programmers.co.kr/learn/courses/30/lessons/72415) | [일루미네이션](https://www.acmicpc.net/problem/5547) | `진행 완료` |
-| 46주차 | 46_week | [2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885) |  | `진행 완료` |
+| 46주차 | 46_week | [2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885) | [탈출](https://www.acmicpc.net/problem/3055) | `진행 완료` |
 | 47주차 | 47_week | [110 옮기기](https://school.programmers.co.kr/learn/courses/30/lessons/77886) | [평범한 배낭](https://www.acmicpc.net/problem/12865) | `진행 완료` |
