@@ -136,3 +136,6 @@
 | 50주차   | 50_week    | [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |                                                              | `진행 완료`   |
 | 51주차   | 51_week    | [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) | [숨바꼭질 2](https://www.acmicpc.net/problem/12851)          | `진행 완료`   |
 | 52주차   | 52_week    | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | [N번째 큰 수](https://www.acmicpc.net/problem/2075)          | `진행 완료`   |
+| 53주차   | 53_week    | [뱀](https://www.acmicpc.net/problem/3190)                   | [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951) | `진행 완료`   |
+| 54주차   | 54_week    | [트리의 독립집합](https://www.acmicpc.net/problem/2213)      | [124 나라의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12899) | `진행 완료`   |
+| 55주차   | 55_week    |                                                              | [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | `진행 완료`   |
